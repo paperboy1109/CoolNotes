@@ -30,7 +30,7 @@ class CoreDataTableVC: UITableViewController {
         
     }
     
-    // Do not worry about this initializer. I has to be implemented
+    // Do not worry about this initializer. It has to be implemented
     // because of the way Swift interfaces with an Objective C
     // protocol called NSArchiving. It's not relevant.
     required init?(coder aDecoder: NSCoder) {
@@ -48,6 +48,18 @@ extension CoreDataTableVC {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         fatalError("This method MUST be implemented by a subclass of CoreDataTableViewController")
+        
+        /* Find the notebook */
+        let nb = fetchedResultsController!.objectAtIndexPath(indexPath) as! Notebook
+        
+        /* Create the table cell */
+        let cell = tableView.dequeueReusableCellWithIdentifier("NotebookCell", forIndexPath: indexPath)
+        
+        /* Sync notebook -> cell */
+        cell.textLabel?.text = nb.name
+        cell.detailTextLabel?.text = "(\(nb.notes!.count) notes"
+        
+        return cell
     }
 }
 
