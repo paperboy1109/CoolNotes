@@ -16,10 +16,10 @@
 		4EA748D61D2DD3CD00A92EA5 /* CoolNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748D51D2DD3CD00A92EA5 /* CoolNotesUITests.swift */; };
 		4EA748E51D2DD59000A92EA5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748E31D2DD59000A92EA5 /* Model.xcdatamodeld */; };
 		4EA748EA1D2DDE5200A92EA5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748E91D2DDE5200A92EA5 /* CoreDataStack.swift */; };
-		4EA748EF1D2DDFD000A92EA5 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748EB1D2DDFD000A92EA5 /* Note+CoreDataProperties.swift */; };
-		4EA748F01D2DDFD000A92EA5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748EC1D2DDFD000A92EA5 /* Note.swift */; };
-		4EA748F11D2DDFD000A92EA5 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748ED1D2DDFD000A92EA5 /* Notebook+CoreDataProperties.swift */; };
-		4EA748F21D2DDFD000A92EA5 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA748EE1D2DDFD000A92EA5 /* Notebook.swift */; };
+		4EC0281C1D2E1A5700ED6338 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC028181D2E1A5700ED6338 /* Notebook+CoreDataProperties.swift */; };
+		4EC0281D1D2E1A5700ED6338 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC028191D2E1A5700ED6338 /* Notebook.swift */; };
+		4EC0281E1D2E1A5700ED6338 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0281A1D2E1A5700ED6338 /* Note+CoreDataProperties.swift */; };
+		4EC0281F1D2E1A5700ED6338 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0281B1D2E1A5700ED6338 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		4EA748D71D2DD3CD00A92EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA748E41D2DD59000A92EA5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		4EA748E91D2DDE5200A92EA5 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		4EA748EB1D2DDFD000A92EA5 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4EA748EC1D2DDFD000A92EA5 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = ../Note.swift; sourceTree = "<group>"; };
-		4EA748ED1D2DDFD000A92EA5 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "../Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4EA748EE1D2DDFD000A92EA5 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notebook.swift; path = ../Notebook.swift; sourceTree = "<group>"; };
+		4EC028181D2E1A5700ED6338 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "../Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4EC028191D2E1A5700ED6338 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notebook.swift; path = ../Notebook.swift; sourceTree = "<group>"; };
+		4EC0281A1D2E1A5700ED6338 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4EC0281B1D2E1A5700ED6338 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = ../Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,10 +140,10 @@
 		4EA748E61D2DDE1700A92EA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4EA748EB1D2DDFD000A92EA5 /* Note+CoreDataProperties.swift */,
-				4EA748EC1D2DDFD000A92EA5 /* Note.swift */,
-				4EA748ED1D2DDFD000A92EA5 /* Notebook+CoreDataProperties.swift */,
-				4EA748EE1D2DDFD000A92EA5 /* Notebook.swift */,
+				4EC028181D2E1A5700ED6338 /* Notebook+CoreDataProperties.swift */,
+				4EC028191D2E1A5700ED6338 /* Notebook.swift */,
+				4EC0281A1D2E1A5700ED6338 /* Note+CoreDataProperties.swift */,
+				4EC0281B1D2E1A5700ED6338 /* Note.swift */,
 				4EA748E31D2DD59000A92EA5 /* Model.xcdatamodeld */,
 				4EA748E91D2DDE5200A92EA5 /* CoreDataStack.swift */,
 			);
@@ -302,13 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EA748B81D2DD3CD00A92EA5 /* ViewController.swift in Sources */,
+				4EC0281E1D2E1A5700ED6338 /* Note+CoreDataProperties.swift in Sources */,
 				4EA748B61D2DD3CD00A92EA5 /* AppDelegate.swift in Sources */,
-				4EA748F21D2DDFD000A92EA5 /* Notebook.swift in Sources */,
+				4EC0281F1D2E1A5700ED6338 /* Note.swift in Sources */,
+				4EC0281C1D2E1A5700ED6338 /* Notebook+CoreDataProperties.swift in Sources */,
 				4EA748E51D2DD59000A92EA5 /* Model.xcdatamodeld in Sources */,
+				4EC0281D1D2E1A5700ED6338 /* Notebook.swift in Sources */,
 				4EA748EA1D2DDE5200A92EA5 /* CoreDataStack.swift in Sources */,
-				4EA748F11D2DDFD000A92EA5 /* Notebook+CoreDataProperties.swift in Sources */,
-				4EA748EF1D2DDFD000A92EA5 /* Note+CoreDataProperties.swift in Sources */,
-				4EA748F01D2DDFD000A92EA5 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +533,7 @@
 				4EA748DC1D2DD3CD00A92EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EA748DD1D2DD3CD00A92EA5 /* Build configuration list for PBXNativeTarget "CoolNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +542,7 @@
 				4EA748DF1D2DD3CD00A92EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EA748E01D2DD3CD00A92EA5 /* Build configuration list for PBXNativeTarget "CoolNotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +551,7 @@
 				4EA748E21D2DD3CD00A92EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

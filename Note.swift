@@ -11,8 +11,8 @@ import CoreData
 
 
 class Note: NSManagedObject {
-
-// Insert code here to add functionality to your managed object subclass
+    
+    // Insert code here to add functionality to your managed object subclass
     
     convenience init(text: String = "New Note", context: NSManagedObjectContext) {
         /*Create an NSEntityDescription */
@@ -22,7 +22,7 @@ class Note: NSManagedObject {
             // (Call designated initializer = the initializer for NSManagedObject, here the superclass)
             self.init(entity: ent, insertIntoManagedObjectContext: context)
             
-            self.text = NSDate() //text
+            self.text = text
             self.creationDate = NSDate()
             
         } else {
@@ -41,5 +41,5 @@ class Note: NSManagedObject {
             return fmt.stringFromDate(creationDate!)
         }
     }
-
+    
 }

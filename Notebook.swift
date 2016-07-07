@@ -11,8 +11,8 @@ import CoreData
 
 
 class Notebook: NSManagedObject {
-
-// Insert code here to add functionality to your managed object subclass
+    
+    // Insert code here to add functionality to your managed object subclass
     
     convenience init (name: String, context: NSManagedObjectContext) {
         
@@ -24,5 +24,5 @@ class Notebook: NSManagedObject {
             fatalError("Unable to find Entity name!")
         }
     }
-
+    
 }

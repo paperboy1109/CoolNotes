@@ -2,7 +2,7 @@
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
     <entity name="Note" representedClassName=".Note" syncable="YES">
         <attribute name="creationDate" attributeType="Date" indexed="YES" syncable="YES"/>
-        <attribute name="text" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <relationship name="notebook" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Notebook" inverseName="notes" inverseEntity="Notebook" syncable="YES"/>
     </entity>
     <entity name="Notebook" representedClassName=".Notebook" syncable="YES">
@@ -11,7 +11,7 @@
         <relationship name="notes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Note" inverseName="notebook" inverseEntity="Note" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Note" positionX="-54" positionY="9" width="128" height="90"/>
         <element name="Notebook" positionX="-461" positionY="-81" width="128" height="88"/>
-        <element name="Note" positionX="-54" positionY="9" width="128" height="88"/>
     </elements>
 </model>
