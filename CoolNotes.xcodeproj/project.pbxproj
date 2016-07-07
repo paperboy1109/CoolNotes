@@ -20,6 +20,7 @@
 		4EC0281D1D2E1A5700ED6338 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC028191D2E1A5700ED6338 /* Notebook.swift */; };
 		4EC0281E1D2E1A5700ED6338 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0281A1D2E1A5700ED6338 /* Note+CoreDataProperties.swift */; };
 		4EC0281F1D2E1A5700ED6338 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0281B1D2E1A5700ED6338 /* Note.swift */; };
+		4EC028231D2E1DB700ED6338 /* CoreDataTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC028221D2E1DB700ED6338 /* CoreDataTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4EC028191D2E1A5700ED6338 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notebook.swift; path = ../Notebook.swift; sourceTree = "<group>"; };
 		4EC0281A1D2E1A5700ED6338 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4EC0281B1D2E1A5700ED6338 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = ../Note.swift; sourceTree = "<group>"; };
+		4EC028221D2E1DB700ED6338 /* CoreDataTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				4EA748B71D2DD3CD00A92EA5 /* ViewController.swift */,
+				4EC028221D2E1DB700ED6338 /* CoreDataTableVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				4EA748B81D2DD3CD00A92EA5 /* ViewController.swift in Sources */,
 				4EC0281E1D2E1A5700ED6338 /* Note+CoreDataProperties.swift in Sources */,
+				4EC028231D2E1DB700ED6338 /* CoreDataTableVC.swift in Sources */,
 				4EA748B61D2DD3CD00A92EA5 /* AppDelegate.swift in Sources */,
 				4EC0281F1D2E1A5700ED6338 /* Note.swift in Sources */,
 				4EC0281C1D2E1A5700ED6338 /* Notebook+CoreDataProperties.swift in Sources */,
